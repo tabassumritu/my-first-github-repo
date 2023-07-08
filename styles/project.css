@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: gray;
+    background-color: rgb(32, 31, 31);
     padding: 20px;
     color: white;
     list-style: none;
@@ -27,4 +27,145 @@
 }
 .item:hover{
     color: black;
+}
+.explore{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    background-image: url('./Project\ images/background.png'),
+    linear-gradient(45deg,  gray ,black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.des{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold; 
+    padding-top: 20px;
+}
+.banner-img2{
+    width: 300px;
+}
+.banner-text2{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row-reverse;
+    padding: 20px;
+    align-items: center;
+}
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 100px;
+    align-items: center;
+}
+.boxbutton{
+    margin-top: 10px;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.boxh2{
+    padding: 10px;
+}
+.boxpp{
+    padding: 5px;
+}
+.service-container{
+    background-image: url('./Project\ images/background.png'),
+    linear-gradient(45deg, rgb(63, 63, 63) ,rgb(66, 59, 59));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.about2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold; 
+    padding-top: 20px;
+}
+.foot{
+    
+    
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    
+}
+.bottomm{
+    text-align: center;
+}
+.finish{
+    list-style: none;
+}
+.wow{
+    
+    background-color: rgb(37, 36, 36);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+    
+    
+}
+.box1{
+    width: 230px;
+    height: 300px;
+    justify-content: center;
+    
+    text-align: left;
+    padding: 15px;
+    color: white;
+    
+}
+.hudai{
+    padding-bottom: 20px;
 }
